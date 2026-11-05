@@ -1,0 +1,2 @@
+-- Reference technologies, templates, and starter tasks live in the foundation migration.
+-- No fictional profiles, auth accounts, or projects are inserted into the live database.

@@ -4,11 +4,14 @@ import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 import tseslint from 'typescript-eslint'
 import { defineConfig, globalIgnores } from 'eslint/config'
+import { architecture } from './eslint-architecture.js'
 
 export default defineConfig([
   globalIgnores(['dist']),
   {
     files: ['**/*.{ts,tsx}'],
+    plugins: { architecture },
+    rules: { 'architecture/boundaries': 'error' },
     extends: [
       js.configs.recommended,
       tseslint.configs.recommended,

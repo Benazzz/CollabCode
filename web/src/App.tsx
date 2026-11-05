@@ -1,5 +1,2 @@
-function App() {
-  return <h1>CollabCode</h1>
-}
-
-export default App
+// Compatibility entry for the original starter. Application composition lives in app/.
+export { default } from './app/app'
