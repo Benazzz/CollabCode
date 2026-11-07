@@ -115,18 +115,20 @@ export function ProjectForm({
         02 <span>THE TOOLS & THE TEAM</span>
       </div>
       <TagPicker
-        label="Your technology stack"
+        label="Built with"
         options={technologies}
         selected={techIds}
         onChange={setTechIds}
       />
       <TagPicker
-        label="Skills you’re looking for"
+        label="Looking for teammates who know"
         options={technologies}
         selected={requiredIds}
         onChange={setRequiredIds}
       />
-      <p className="field-hint">Required skills help the right teammates find your project.</p>
+      <p className="field-hint">
+        Developers with these skills will see your project under “For your skills”.
+      </p>
       {templatePicker}
       <div className="section-kicker">
         03 <span>A LITTLE PERSONALITY</span>

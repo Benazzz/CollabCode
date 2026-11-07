@@ -6,6 +6,7 @@ import { ProjectForm } from '@/features/projects/components/project-form'
 import { saveProject } from '@/features/projects/api/projects'
 import { useTechnologies } from '@/lib/catalog'
 import { useTemplates, provisionRepository } from '@/features/github/api/github'
+import { signInWithGithub } from '@/features/auth/api/auth'
 import { useAuth } from '@/hooks/use-auth'
 import { ErrorNotice, Loading, PageHeading } from '@/components/ui/feedback'
 import type { Database } from '@/types/database'
@@ -22,6 +23,12 @@ export default function CreateProjectRoute() {
   const mutation = useMutation({
     mutationFn: async (values: Database['public']['Functions']['save_project']['Args']) => {
       const id = await saveProject({ ...values, p_template_id: templateId ?? undefined })
+      if (createRepository && templateId && !providerToken) {
+        // GitHub access is needed first. The project page creates the repository on return.
+        await queryClient.invalidateQueries({ queryKey: ['projects'] })
+        await signInWithGithub(`/projects/${id}?setup=github`)
+        return
+      }
       let githubError = ''
       if (createRepository && providerToken && templateId) {
         try {
@@ -91,7 +98,7 @@ export default function CreateProjectRoute() {
                     aria-pressed={templateId === template.id}
                     onClick={() => {
                       setTemplateId(template.id)
-                      setCreateRepository(Boolean(providerToken))
+                      setCreateRepository(true)
                     }}
                   >
                     <Code2 size={20} />
@@ -110,7 +117,6 @@ export default function CreateProjectRoute() {
                       <input
                         type="checkbox"
                         checked={createRepository}
-                        disabled={!providerToken}
                         onChange={(e) => setCreateRepository(e.target.checked)}
                       />
                       Create a public GitHub repository with starter Issues
@@ -118,7 +124,7 @@ export default function CreateProjectRoute() {
                     <p className="field-hint">
                       {providerToken
                         ? 'A repository will be created in your GitHub account when you submit.'
-                        : 'You can connect GitHub and create the repository from your project page. Starter tasks are added now.'}
+                        : 'After you submit, GitHub will ask for access. The repository is created as soon as you return.'}
                     </p>
                   </div>
                 </div>

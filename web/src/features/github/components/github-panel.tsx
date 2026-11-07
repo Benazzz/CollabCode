@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useMutation } from '@tanstack/react-query'
 import { GitFork as Github, ArrowUpRight, Check, RefreshCw } from 'lucide-react'
 import { provisionRepository } from '@/features/github/api/github'
@@ -12,12 +12,14 @@ export function GithubPanel({
   providerToken,
   onConnect,
   onChange,
+  autoCreate = false,
 }: {
   project: Project
   owner: boolean
   providerToken: string | null
   onConnect: () => Promise<void>
   onChange: () => void
+  autoCreate?: boolean
 }) {
   const [error, setError] = useState<unknown>(null)
   const [connecting, setConnecting] = useState(false)
@@ -25,6 +27,21 @@ export function GithubPanel({
     mutationFn: () => provisionRepository(project.id, providerToken!),
     onSuccess: onChange,
   })
+  // Continue repository creation started from the create-project form.
+  const autoStarted = useRef(false)
+  useEffect(() => {
+    if (
+      autoCreate &&
+      owner &&
+      providerToken &&
+      project.template_id &&
+      !project.github_repo_url &&
+      !autoStarted.current
+    ) {
+      autoStarted.current = true
+      mutation.mutate()
+    }
+  }, [autoCreate, owner, providerToken, project.template_id, project.github_repo_url, mutation])
   const url = githubUrl(project.github_repo_url)
   return (
     <div className="github-panel">

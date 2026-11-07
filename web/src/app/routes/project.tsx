@@ -229,6 +229,7 @@ export default function ProjectRoute() {
               providerToken={providerToken}
               onConnect={() => signInWithGithub(`/projects/${id}`)}
               onChange={refresh}
+              autoCreate={params.get('setup') === 'github'}
             />
           </div>
           <aside>
