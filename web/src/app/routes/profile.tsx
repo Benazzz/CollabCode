@@ -106,6 +106,9 @@ export function ProfileSettingsRoute() {
   const { session } = useAuth()
   const profile = useProfile(session?.user.id)
   const technologies = useTechnologies()
+  const email = session?.user.email
+  const providers = (session?.user.app_metadata.providers as string[] | undefined) ?? []
+  const signedInWith = providers.map((p) => (p === 'github' ? 'GitHub' : 'email')).join(' and ')
   if (profile.isLoading || technologies.isLoading) return <Loading />
   if (profile.error || technologies.error)
     return (
@@ -124,6 +127,12 @@ export function ProfileSettingsRoute() {
         A little about your skills, your interests, and what you’d like to build.
       </PageHeading>
       <div className="narrow-page">
+        {email && (
+          <p className="notice">
+            Signed in as <strong>{email}</strong>
+            {signedInWith && ` with ${signedInWith}`}. Only you can see this.
+          </p>
+        )}
         <ProfileForm profile={profile.data} technologies={technologies.data || []} />
       </div>
     </>
