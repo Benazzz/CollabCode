@@ -91,7 +91,7 @@ h3 {
   line-height: 1.4;
 }
 h4 {
-  font-size: 15px;
+  font-size: 16px;
 }
 p {
   line-height: 1.75;
@@ -106,7 +106,7 @@ svg {
   color: var(--muted);
 }
 .eyebrow {
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 650;
   letter-spacing: 1.8px;
   line-height: 1.7;
@@ -121,7 +121,7 @@ svg {
   min-height: 44px;
   border: 1px solid transparent;
   border-radius: 6px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
   line-height: 1.4;
   transition:
@@ -157,7 +157,7 @@ svg {
 .button.small {
   padding: 9px 13px;
   min-height: 37px;
-  font-size: 11px;
+  font-size: 14px;
 }
 .button.danger {
   background: #a7392f;
@@ -195,7 +195,7 @@ svg {
   background: none;
   padding: 0;
   color: var(--red);
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
 }
 .skip-link {
@@ -215,7 +215,7 @@ svg {
   min-height: 100vh;
 }
 .sidebar {
-  width: 230px;
+  width: 260px;
   flex-shrink: 0;
   position: fixed;
   inset: 0 auto 0 0;
@@ -253,7 +253,7 @@ svg {
   color: var(--red);
 }
 .nav-caption {
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 650;
   color: #8a8e80;
   letter-spacing: 1.8px;
@@ -263,7 +263,7 @@ svg {
   display: flex;
   align-items: center;
   gap: 11px;
-  font-size: 12px;
+  font-size: 15px;
   padding: 13px 12px;
   margin: 5px 0;
   border-radius: 6px;
@@ -316,7 +316,7 @@ svg {
   margin-bottom: 17px;
 }
 .sidebar-note p {
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.9;
   color: #89907f;
 }
@@ -329,7 +329,7 @@ svg {
   align-items: center;
   gap: 12px;
   color: var(--red);
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 600;
 }
 .sidebar-bottom {
@@ -358,7 +358,7 @@ svg {
   min-width: 0;
 }
 .viewer strong {
-  font-size: 11px;
+  font-size: 14px;
   display: block;
   max-width: 116px;
   text-overflow: ellipsis;
@@ -366,7 +366,7 @@ svg {
   white-space: nowrap;
 }
 .viewer small {
-  font-size: 9px;
+  font-size: 13px;
   display: block;
   max-width: 116px;
   text-overflow: ellipsis;
@@ -379,7 +379,7 @@ svg {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-size: 10px;
+  font-size: 13px;
   color: #7a8374;
 }
 .guest-signin strong {
@@ -396,7 +396,7 @@ svg {
   display: none;
 }
 .main-shell {
-  margin-left: 230px;
+  margin-left: 260px;
   flex: 1;
   min-width: 0;
 }
@@ -416,7 +416,7 @@ svg {
   gap: 24px;
 }
 .breadcrumb {
-  font-size: 11px;
+  font-size: 14px;
   color: #92998b;
   display: flex;
   align-items: center;
@@ -430,7 +430,7 @@ svg {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 10px;
+  font-size: 13px;
   color: #8a9283;
 }
 .status-dot {
@@ -452,7 +452,7 @@ svg {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  font-size: 9px;
+  font-size: 13px;
   color: #91968a;
   margin: 0 40px;
   padding: 24px 0;
@@ -485,7 +485,7 @@ svg {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 8px;
+  font-size: 12px;
   letter-spacing: 1.7px;
   color: #7c866f;
 }
@@ -508,7 +508,7 @@ svg {
   font-weight: 400;
 }
 .hero-copy p {
-  font-size: 12px;
+  font-size: 15px;
   color: #7c8475;
   line-height: 1.8;
   margin-bottom: 23px;
@@ -519,12 +519,12 @@ svg {
   gap: 16px;
 }
 .hero-actions .button {
-  font-size: 10px;
+  font-size: 13px;
   padding: 11px 13px;
   min-height: 37px;
 }
 .hero-footnote {
-  font-size: 9px;
+  font-size: 13px;
   color: #929887;
 }
 .hero-art {
@@ -550,11 +550,11 @@ svg {
   top: 30px;
   writing-mode: vertical-rl;
   color: #6b775e;
-  font-size: 12px;
+  font-size: 15px;
   letter-spacing: 6px;
 }
 .art-caption span {
-  font-size: 6px;
+  font-size: 10px;
   letter-spacing: 1.6px;
   margin-top: 13px;
   color: #8f9881;
@@ -583,7 +583,7 @@ svg {
   font-size: 22px;
 }
 .section-heading p {
-  font-size: 12px;
+  font-size: 15px;
   color: var(--muted);
   margin: 5px 0 0;
 }
@@ -591,7 +591,7 @@ svg {
   color: #8e9585;
 }
 .section-heading .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   letter-spacing: 1.5px;
 }
 .count-badge {
@@ -612,7 +612,7 @@ svg {
   margin-bottom: 20px;
 }
 .discovery-tabs button {
-  font-size: 11px;
+  font-size: 14px;
   padding: 10px 0 13px;
   border: 0;
   background: none;
@@ -662,12 +662,12 @@ svg {
 }
 .filters select {
   max-width: 170px;
-  font-size: 10px;
+  font-size: 13px;
   margin: 0;
   min-height: 43px;
 }
 .filters input {
-  font-size: 10px;
+  font-size: 13px;
   min-height: 43px;
 }
 .results-bar {
@@ -676,7 +676,7 @@ svg {
   align-items: center;
   margin: 15px 0;
   color: #959b8e;
-  font-size: 9px;
+  font-size: 13px;
   gap: 8px;
 }
 .results-bar > div {
@@ -686,7 +686,7 @@ svg {
 .results-bar select {
   background: transparent;
   border: 0;
-  font-size: 9px;
+  font-size: 13px;
   color: #7a8574;
   padding: 2px 0;
   min-height: 24px;
@@ -755,7 +755,7 @@ svg {
   border: 1px solid #dce4d3;
   border-radius: 20px;
   white-space: nowrap;
-  font-size: 8px;
+  font-size: 12px;
   color: #6c815d;
   font-weight: 500;
   background: #f1f4eb;
@@ -777,7 +777,7 @@ svg {
   border-color: #d8e2e6;
 }
 .card-category {
-  font-size: 8px;
+  font-size: 12px;
   letter-spacing: 0.45px;
   color: #959c8b;
   margin-bottom: 10px;
@@ -802,7 +802,7 @@ svg {
   color: #9ba591;
 }
 .card-description {
-  font-size: 11px;
+  font-size: 14px;
   color: #858d7d;
   line-height: 1.8;
   display: -webkit-box;
@@ -822,7 +822,7 @@ svg {
   border-radius: 4px;
   padding: 4px 8px;
   background: #f5f6ee;
-  font-size: 9px;
+  font-size: 13px;
   line-height: 1.3;
   color: #7b866f;
   display: inline-flex;
@@ -839,7 +839,7 @@ svg {
 .card-progress > div {
   display: flex;
   justify-content: space-between;
-  font-size: 8px;
+  font-size: 12px;
   color: #939b89;
   margin-bottom: 7px;
 }
@@ -871,7 +871,7 @@ progress::-moz-progress-bar {
   margin-top: 19px;
   padding-top: 17px;
   border-top: 1px solid #eceee5;
-  font-size: 8px;
+  font-size: 12px;
   color: #9aa18f;
 }
 .avatar {
@@ -884,7 +884,7 @@ progress::-moz-progress-bar {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 11px;
+  font-size: 14px;
   color: #6f7f63;
   flex-shrink: 0;
   overflow: hidden;
@@ -900,7 +900,7 @@ progress::-moz-progress-bar {
 .avatar-sm {
   width: 25px;
   height: 25px;
-  font-size: 8px;
+  font-size: 12px;
 }
 .avatar-lg {
   width: 64px;
@@ -931,7 +931,7 @@ progress::-moz-progress-bar {
   overflow: hidden;
 }
 .community-card .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   color: #8c927d;
   letter-spacing: 1.6px;
 }
@@ -982,7 +982,7 @@ progress::-moz-progress-bar {
   margin-bottom: 12px;
 }
 .community-card p {
-  font-size: 10px;
+  font-size: 13px;
   color: #8c927e;
   line-height: 1.9;
   margin-bottom: 20px;
@@ -993,7 +993,7 @@ progress::-moz-progress-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 10px;
+  font-size: 13px;
   color: #6c7b5e;
   font-weight: 600;
 }
@@ -1001,7 +1001,7 @@ progress::-moz-progress-bar {
   padding: 27px 4px;
 }
 .how-card > .eyebrow {
-  font-size: 7px;
+  font-size: 11px;
   letter-spacing: 1.3px;
 }
 .how-card ol {
@@ -1015,18 +1015,18 @@ progress::-moz-progress-bar {
   margin-bottom: 20px;
 }
 .how-card li > span {
-  font-size: 10px;
+  font-size: 13px;
   color: #b79d77;
   font-family: Georgia, serif;
   padding-top: 2px;
 }
 .how-card li strong {
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 600;
   color: #66775c;
 }
 .how-card li p {
-  font-size: 9px;
+  font-size: 13px;
   margin: 4px 0 0;
   color: #969d8b;
   line-height: 1.7;
@@ -1039,7 +1039,7 @@ progress::-moz-progress-bar {
   color: #93a17f;
 }
 .quiet-note p {
-  font-size: 8px;
+  font-size: 12px;
   line-height: 1.9;
   margin: 0;
   color: #929b86;
@@ -1055,12 +1055,12 @@ progress::-moz-progress-bar {
   margin-bottom: 15px;
 }
 .inspiration-heading h3 {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 550;
   margin: 0;
 }
 .inspiration-heading > span {
-  font-size: 8px;
+  font-size: 12px;
   color: #9ba18f;
 }
 .inspiration-grid {
@@ -1091,17 +1091,17 @@ progress::-moz-progress-bar {
   color: #859671;
 }
 .idea-card small {
-  font-size: 6px;
+  font-size: 10px;
   color: #8a9a76;
   letter-spacing: 1px;
 }
 .idea-card h4 {
-  font-size: 10px;
+  font-size: 13px;
   margin: 6px 0;
   color: #687c58;
 }
 .idea-card p {
-  font-size: 8px;
+  font-size: 12px;
   color: #98a18a;
   margin: 0;
   line-height: 1.5;
@@ -1130,13 +1130,13 @@ progress::-moz-progress-bar {
 .page-heading .eyebrow {
   margin-bottom: 11px;
   color: #9a977e;
-  font-size: 9px;
+  font-size: 13px;
 }
 .page-heading h1 {
   margin-bottom: 12px;
 }
 .page-heading p {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--muted);
   max-width: 620px;
   margin: 0;
@@ -1168,13 +1168,13 @@ progress::-moz-progress-bar {
   color: #63745b;
 }
 .empty-state p {
-  font-size: 11px;
+  font-size: 14px;
   color: #8b9580;
   max-width: 380px;
   margin: 0 auto 18px;
 }
 .empty-state .button {
-  font-size: 10px;
+  font-size: 13px;
   min-height: 36px;
   padding: 9px 14px;
 }
@@ -1185,7 +1185,7 @@ progress::-moz-progress-bar {
   align-items: center;
   gap: 13px;
   color: #829075;
-  font-size: 13px;
+  font-size: 15px;
 }
 .spin {
   animation: spin 1.2s linear infinite;
@@ -1200,7 +1200,7 @@ progress::-moz-progress-bar {
   background: #f6f1df;
   padding: 14px 16px;
   border-radius: 7px;
-  font-size: 12px;
+  font-size: 15px;
   color: #8e784b;
   line-height: 1.7;
   display: flex;
@@ -1254,7 +1254,7 @@ form > label {
   flex-direction: column;
   gap: 8px;
   margin-bottom: 20px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 550;
   color: #54644e;
 }
@@ -1268,7 +1268,7 @@ form > label {
   flex-direction: column;
   gap: 8px;
   margin-bottom: 20px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 550;
   color: #54644e;
 }
@@ -1281,7 +1281,7 @@ select {
   border-radius: 5px;
   background: #fdfdf8;
   padding: 12px 13px;
-  font-size: 12px;
+  font-size: 15px;
   color: #3d503c;
   line-height: 1.5;
   min-height: 43px;
@@ -1311,7 +1311,7 @@ fieldset {
   padding: 0;
 }
 legend {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 550;
   color: #54644e;
   margin-bottom: 12px;
@@ -1323,7 +1323,7 @@ legend {
   flex-wrap: wrap;
 }
 .tag-options .tag {
-  font-size: 11px;
+  font-size: 14px;
   padding: 7px 11px;
   border-color: #dfe4d5;
   background: #f9faf3;
@@ -1338,7 +1338,7 @@ legend {
   color: #596e48;
 }
 .field-hint {
-  font-size: 10px;
+  font-size: 13px;
   color: #94a086;
   font-weight: 400;
   line-height: 1.8;
@@ -1349,7 +1349,7 @@ legend {
   flex-direction: row !important;
   align-items: center !important;
   gap: 9px !important;
-  font-size: 11px !important;
+  font-size: 14px !important;
   font-weight: 500 !important;
   line-height: 1.5;
 }
@@ -1357,7 +1357,7 @@ legend {
   display: flex;
   align-items: center;
   gap: 15px;
-  font-size: 9px;
+  font-size: 13px;
   letter-spacing: 1px;
   color: #b39c7a;
   border-bottom: 1px solid #edf0e5;
@@ -1368,7 +1368,7 @@ legend {
   margin-top: 30px;
 }
 .section-kicker span {
-  font-size: 9px;
+  font-size: 13px;
   letter-spacing: 1.6px;
   color: #87967a;
 }
@@ -1414,7 +1414,7 @@ legend {
   margin-top: 27px;
 }
 .form-actions p {
-  font-size: 10px;
+  font-size: 13px;
   color: #94a086;
   margin: 0;
   max-width: 250px;
@@ -1431,12 +1431,12 @@ legend {
   margin: 7px 0 20px;
 }
 .editor-aside p {
-  font-size: 12px;
+  font-size: 15px;
   color: #93a183;
 }
 .editor-aside ul {
   padding-left: 16px;
-  font-size: 11px;
+  font-size: 14px;
   color: #93a183;
   line-height: 1.9;
   margin-bottom: 30px;
@@ -1470,13 +1470,13 @@ legend {
 }
 .template-option strong {
   display: block;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 .template-option small {
   display: block;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.65;
   color: #8f9b80;
 }
@@ -1515,7 +1515,7 @@ legend {
   letter-spacing: -0.6px;
 }
 .auth-card > p {
-  font-size: 12px;
+  font-size: 15px;
   color: #8a957d;
 }
 .github-button {
@@ -1535,14 +1535,14 @@ legend {
   background: var(--paper);
   padding: 0 13px;
   color: #a2ac94;
-  font-size: 10px;
+  font-size: 13px;
   position: relative;
   top: -3px;
 }
 .auth-switch {
   text-align: center;
   margin-top: 24px;
-  font-size: 11px !important;
+  font-size: 14px !important;
 }
 .auth-switch a {
   color: var(--red);
@@ -1551,7 +1551,7 @@ legend {
 }
 .auth-note {
   display: block;
-  font-size: 9px;
+  font-size: 13px;
   line-height: 1.8;
   text-align: center;
   color: #9ca68f;
@@ -1572,7 +1572,7 @@ legend {
   letter-spacing: -0.6px;
 }
 .auth-art > span {
-  font-size: 8px;
+  font-size: 12px;
   letter-spacing: 3px;
   color: #a6ad94;
 }
@@ -1616,7 +1616,7 @@ legend {
   color: #9ba88d;
 }
 .person-headline {
-  font-size: 11px;
+  font-size: 14px;
   color: #89967b;
   margin-bottom: 12px;
 }
@@ -1624,11 +1624,11 @@ legend {
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 10px;
+  font-size: 13px;
   color: #a3ac96;
 }
 .person-bio {
-  font-size: 11px;
+  font-size: 14px;
   color: #89967b;
   min-height: 40px;
   margin: 20px 0;
@@ -1663,7 +1663,7 @@ legend {
   overflow-wrap: anywhere;
 }
 .profile-intro > p {
-  font-size: 12px;
+  font-size: 15px;
   color: #88967b;
   margin-bottom: 16px;
 }
@@ -1672,7 +1672,7 @@ legend {
   align-items: center;
   gap: 18px;
   flex-wrap: wrap;
-  font-size: 10px;
+  font-size: 13px;
   color: #8b997e;
 }
 .profile-meta > span:not(.status-badge),
@@ -1693,7 +1693,7 @@ legend {
 .prose {
   white-space: pre-wrap;
   overflow-wrap: anywhere;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.9;
   color: #7a8a6c;
 }
@@ -1715,11 +1715,11 @@ legend {
 }
 .outgoing-list strong {
   display: block;
-  font-size: 13px;
+  font-size: 15px;
 }
 .outgoing-list small {
   display: block;
-  font-size: 10px;
+  font-size: 13px;
   color: #99a58a;
   margin-top: 6px;
 }
@@ -1727,7 +1727,7 @@ legend {
   color: #95a383;
 }
 .request-status {
-  font-size: 10px;
+  font-size: 13px;
   border-radius: 5px;
   padding: 6px 10px;
   text-transform: capitalize;
@@ -1748,7 +1748,7 @@ legend {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-size: 10px;
+  font-size: 13px;
   color: #929d84;
   margin-bottom: 22px;
 }
@@ -1780,7 +1780,7 @@ legend {
   margin-bottom: 10px;
 }
 .project-header-meta .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   color: var(--theme-color);
 }
 .project-hero h1 {
@@ -1791,7 +1791,7 @@ legend {
   overflow-wrap: anywhere;
 }
 .project-hero-copy > p {
-  font-size: 12px;
+  font-size: 15px;
   color: #7c8c75;
   max-width: 690px;
   line-height: 1.7;
@@ -1801,7 +1801,7 @@ legend {
   align-items: center;
   gap: 20px;
   margin-top: 20px;
-  font-size: 9px;
+  font-size: 13px;
   color: #91a085;
 }
 .project-owner > a,
@@ -1815,7 +1815,7 @@ legend {
   color: #748668;
 }
 .member-indicator {
-  font-size: 8px;
+  font-size: 12px;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -1835,7 +1835,7 @@ legend {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 11px;
+  font-size: 14px;
   padding: 14px 0;
   color: #93a184;
   white-space: nowrap;
@@ -1855,7 +1855,7 @@ legend {
   background: #778d61;
 }
 .project-tabs button > span {
-  font-size: 8px;
+  font-size: 12px;
   background: #e9efdf;
   border-radius: 3px;
   padding: 2px 5px;
@@ -1866,7 +1866,7 @@ legend {
   gap: 25px;
 }
 .project-overview .panel .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   color: #a0ac8f;
   margin-bottom: 9px;
 }
@@ -1894,23 +1894,23 @@ legend {
   color: #8fa17a;
 }
 .project-facts span {
-  font-size: 9px;
+  font-size: 13px;
   color: #a1ae91;
 }
 .project-facts strong {
   display: block;
-  font-size: 11px;
+  font-size: 14px;
   margin-top: 6px;
   font-weight: 550;
   color: #788c65;
 }
 .project-overview .panel h3 {
-  font-size: 12px;
+  font-size: 15px;
   margin: 24px 0 12px;
   color: #80936d;
 }
 .project-overview .tags .tag {
-  font-size: 10px;
+  font-size: 13px;
   padding: 6px 10px;
 }
 .progress-panel {
@@ -1921,7 +1921,7 @@ legend {
   margin-bottom: 22px;
 }
 .progress-panel .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   color: #9ca88a;
 }
 .progress-panel h3 {
@@ -1946,7 +1946,7 @@ legend {
   height: 5px;
 }
 .progress-panel p {
-  font-size: 9px;
+  font-size: 13px;
   color: #9aa88a;
   margin-top: 12px;
 }
@@ -1954,7 +1954,7 @@ legend {
   transform: rotate(180deg);
 }
 .progress-panel .text-button {
-  font-size: 10px;
+  font-size: 13px;
   margin-top: 10px;
   color: #6f8658;
 }
@@ -1965,7 +1965,7 @@ legend {
   padding: 25px;
 }
 .join-card .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   color: #b2a17f;
 }
 .join-card h3 {
@@ -1976,24 +1976,24 @@ legend {
   color: #91815e;
 }
 .join-card p {
-  font-size: 11px;
+  font-size: 14px;
   color: #a4997d;
   line-height: 1.8;
 }
 .join-card form label {
-  font-size: 10px;
+  font-size: 13px;
   color: #a4987c;
   margin-top: 20px;
 }
 .join-card textarea {
-  font-size: 10px;
+  font-size: 13px;
 }
 .join-card .field-hint {
-  font-size: 9px;
+  font-size: 13px;
   margin-bottom: 0;
 }
 .join-card .button {
-  font-size: 10px;
+  font-size: 13px;
 }
 .team-note {
   padding: 28px 15px;
@@ -2006,7 +2006,7 @@ legend {
   color: #7a8d65;
 }
 .team-note p {
-  font-size: 11px;
+  font-size: 14px;
   color: #9da98e;
 }
 .github-panel {
@@ -2019,15 +2019,15 @@ legend {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0;
 }
 .github-panel > p {
-  font-size: 12px;
+  font-size: 15px;
   color: #8e9c7f;
 }
 .github-panel .field-hint {
-  font-size: 9px;
+  font-size: 13px;
   margin-bottom: 0;
   max-width: 450px;
 }
@@ -2038,7 +2038,7 @@ legend {
   padding: 15px;
   background: #f0f3e8;
   border-radius: 5px;
-  font-size: 11px;
+  font-size: 14px;
   color: #758b5b;
   margin-bottom: 20px;
   gap: 12px;
@@ -2069,18 +2069,18 @@ legend {
 }
 .member-person strong {
   display: block;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 550;
   overflow-wrap: anywhere;
 }
 .member-person small {
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 400;
   color: #9aa78b;
 }
 .member-person div > span {
   display: block;
-  font-size: 10px;
+  font-size: 13px;
   color: #9aa78b;
   margin-top: 5px;
 }
@@ -2090,14 +2090,14 @@ legend {
   gap: 12px;
 }
 .member-controls select {
-  font-size: 10px;
+  font-size: 13px;
   min-height: 34px;
   padding: 6px 10px;
   max-width: 140px;
 }
 .role-badge {
   text-transform: capitalize;
-  font-size: 9px;
+  font-size: 13px;
   padding: 5px 10px;
   color: #8ca174;
   background: #eef3e4;
@@ -2125,7 +2125,7 @@ legend {
   margin-bottom: 20px;
 }
 .request-card .prose {
-  font-size: 12px;
+  font-size: 15px;
 }
 .request-actions {
   display: flex;
@@ -2144,12 +2144,12 @@ legend {
   border-radius: 8px;
 }
 .danger-zone h3 {
-  font-size: 15px;
+  font-size: 16px;
   color: #a0755a;
   margin-bottom: 8px;
 }
 .danger-zone p {
-  font-size: 10px;
+  font-size: 13px;
   color: #b29177;
   margin: 0;
   max-width: 420px;
@@ -2168,7 +2168,7 @@ legend {
   margin: 0 0 7px;
 }
 .board-header p {
-  font-size: 11px;
+  font-size: 14px;
   color: #98a68a;
   margin: 0;
 }
@@ -2196,13 +2196,13 @@ legend {
   align-items: center;
   gap: 8px;
   margin: 0;
-  font-size: 12px;
+  font-size: 15px;
   color: #8ca275;
 }
 .kanban-column h3 > span {
   background: #e3ead7;
   border-radius: 4px;
-  font-size: 9px;
+  font-size: 13px;
   padding: 3px 6px;
   color: #98aa84;
   margin-left: 4px;
@@ -2249,7 +2249,7 @@ legend {
   display: block;
   text-align: left;
   padding: 0;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.6;
   font-weight: 550;
   color: #526a44;
@@ -2260,7 +2260,7 @@ legend {
   color: var(--red);
 }
 .task-card > p {
-  font-size: 10px;
+  font-size: 13px;
   color: #99a88a;
   margin: 11px 0;
   display: -webkit-box;
@@ -2274,7 +2274,7 @@ legend {
   align-items: center;
   gap: 10px;
   margin-top: 18px;
-  font-size: 8px;
+  font-size: 12px;
   color: #a0af8e;
 }
 .task-meta > span,
@@ -2297,11 +2297,11 @@ legend {
   border-radius: 0;
   margin-top: 12px;
   padding: 9px 0 0;
-  font-size: 8px;
+  font-size: 12px;
   color: #a1b18d;
 }
 .empty-column {
-  font-size: 10px;
+  font-size: 13px;
   color: #a9b698;
   text-align: center;
   padding: 50px 10px;
@@ -2340,15 +2340,15 @@ legend {
   overflow-wrap: anywhere;
 }
 .dialog-header .eyebrow {
-  font-size: 8px;
+  font-size: 12px;
   margin-bottom: 7px;
 }
 .dialog > p {
-  font-size: 12px;
+  font-size: 15px;
   color: #8fa17c;
 }
 .dialog label {
-  font-size: 11px;
+  font-size: 14px;
 }
 .task-dialog {
   width: min(600px, calc(100vw - 32px));
@@ -2367,10 +2367,10 @@ legend {
     font-size: 57px;
   }
   .hero-copy p {
-    font-size: 14px;
+    font-size: 16px;
   }
   .hero-actions .button {
-    font-size: 11px;
+    font-size: 14px;
   }
   .discovery-layout {
     grid-template-columns: minmax(0, 1fr) 270px;
@@ -2383,22 +2383,22 @@ legend {
     font-size: 22px;
   }
   .card-description {
-    font-size: 12px;
+    font-size: 15px;
   }
   .hero-footnote {
-    font-size: 10px;
+    font-size: 13px;
   }
 }
 @media (max-width: 1200px) {
   .sidebar {
-    width: 205px;
+    width: 235px;
     padding: 30px 15px 20px;
   }
   .brand {
     font-size: 21px;
   }
   .main-shell {
-    margin-left: 205px;
+    margin-left: 235px;
   }
   .main-content {
     padding: 28px 28px 45px;
@@ -2430,7 +2430,7 @@ legend {
     gap: 5px;
   }
   .status-badge {
-    font-size: 7px;
+    font-size: 11px;
     padding: 4px 6px;
   }
   .community-card {
@@ -2443,7 +2443,7 @@ legend {
     gap: 18px;
   }
   .discovery-tabs button {
-    font-size: 10px;
+    font-size: 13px;
   }
   .idea-card {
     padding: 14px 11px;
@@ -2509,7 +2509,7 @@ legend {
     padding-left: 23px;
   }
   .hero-copy p {
-    font-size: 11px;
+    font-size: 14px;
   }
   .community-note {
     display: none;
@@ -2521,7 +2521,7 @@ legend {
     gap: 18px;
   }
   .card-description {
-    font-size: 11px;
+    font-size: 14px;
   }
   .project-card-top {
     align-items: center;
@@ -2530,7 +2530,7 @@ legend {
     padding: 23px;
   }
   .status-badge {
-    font-size: 8px;
+    font-size: 12px;
   }
   .editor-layout {
     display: block;
@@ -2603,7 +2603,7 @@ legend {
     align-items: flex-start;
   }
   .footer > span:last-child {
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 @media (max-width: 760px) {
@@ -2649,7 +2649,7 @@ legend {
     gap: 10px;
   }
   .breadcrumb {
-    font-size: 10px;
+    font-size: 13px;
     gap: 9px;
   }
   .breadcrumb > span {
@@ -2659,10 +2659,10 @@ legend {
     font-size: 0;
   }
   .breadcrumb strong {
-    font-size: 11px;
+    font-size: 14px;
   }
   .topbar-right .button {
-    font-size: 10px;
+    font-size: 13px;
     padding: 8px 11px;
     min-height: 34px;
   }
@@ -2672,7 +2672,7 @@ legend {
   .footer {
     margin: 0 20px;
     flex-wrap: wrap;
-    font-size: 8px;
+    font-size: 12px;
     gap: 8px;
     padding: 19px 0;
   }
@@ -2687,11 +2687,11 @@ legend {
     font-size: 43px;
   }
   .hero-copy .eyebrow {
-    font-size: 7px;
+    font-size: 11px;
     letter-spacing: 1.4px;
   }
   .hero-copy p {
-    font-size: 11px;
+    font-size: 14px;
   }
   .hero-art {
     width: 42%;
@@ -2706,11 +2706,11 @@ legend {
   .art-caption {
     top: 20px;
     right: 13px;
-    font-size: 9px;
+    font-size: 13px;
     letter-spacing: 4px;
   }
   .art-caption span {
-    font-size: 5px;
+    font-size: 10px;
   }
   .hero-copy {
     flex-shrink: 1;
@@ -2723,13 +2723,13 @@ legend {
     font-size: 29px;
   }
   .page-heading p {
-    font-size: 11px;
+    font-size: 14px;
   }
   .page-heading .eyebrow {
-    font-size: 8px;
+    font-size: 12px;
   }
   .page-heading .button {
-    font-size: 10px;
+    font-size: 13px;
     padding: 9px 12px;
   }
   .project-overview {
@@ -2743,7 +2743,7 @@ legend {
     font-size: 32px;
   }
   .project-hero-copy > p {
-    font-size: 11px;
+    font-size: 14px;
   }
   .project-glyph.large {
     width: 49px;
@@ -2753,13 +2753,13 @@ legend {
     width: 25px;
   }
   .project-owner {
-    font-size: 8px;
+    font-size: 12px;
   }
   .project-tabs {
     gap: 25px;
   }
   .project-tabs button {
-    font-size: 10px;
+    font-size: 13px;
   }
   .auth-layout {
     max-width: 470px;
@@ -2783,7 +2783,7 @@ legend {
     gap: 16px;
   }
   .person-top .status-badge {
-    font-size: 7px;
+    font-size: 11px;
   }
   .person-top .avatar {
     width: 52px;
@@ -2801,10 +2801,10 @@ legend {
     font-size: 18px;
   }
   .project-card-top .status-badge {
-    font-size: 7px;
+    font-size: 11px;
   }
   .idea-card h4 {
-    font-size: 10px;
+    font-size: 13px;
   }
   .person-card h2 {
     font-size: 18px;
@@ -2859,7 +2859,7 @@ legend {
     display: none;
   }
   .hero-copy .eyebrow {
-    font-size: 6.5px;
+    font-size: 10px;
     letter-spacing: 1.3px;
   }
   .project-grid {
@@ -2872,28 +2872,28 @@ legend {
     font-size: 22px;
   }
   .project-card-top .status-badge {
-    font-size: 9px;
+    font-size: 13px;
   }
   .card-category {
-    font-size: 9px;
+    font-size: 13px;
   }
   .card-description {
-    font-size: 12px;
+    font-size: 15px;
   }
   .project-card .tag {
-    font-size: 10px;
+    font-size: 13px;
   }
   .card-progress > div {
-    font-size: 9px;
+    font-size: 13px;
   }
   .project-card-footer {
-    font-size: 9px;
+    font-size: 13px;
   }
   .discovery-tabs {
     gap: 18px;
   }
   .discovery-tabs button {
-    font-size: 9px;
+    font-size: 13px;
     gap: 5px;
   }
   .discovery-tabs svg {
@@ -2911,13 +2911,13 @@ legend {
   }
   .results-bar {
     flex-wrap: wrap;
-    font-size: 8px;
+    font-size: 12px;
   }
   .results-bar > div {
     gap: 8px;
   }
   .results-bar select {
-    font-size: 8px;
+    font-size: 12px;
     max-width: 138px;
   }
   .inspiration-grid {
@@ -2930,16 +2930,16 @@ legend {
     display: flex;
   }
   .idea-card h4 {
-    font-size: 12px;
+    font-size: 15px;
   }
   .idea-card p {
-    font-size: 9px;
+    font-size: 13px;
   }
   .idea-card small {
-    font-size: 7px;
+    font-size: 11px;
   }
   .inspiration-heading > span {
-    font-size: 7px;
+    font-size: 11px;
   }
   .section-heading h2 {
     font-size: 23px;
@@ -2951,7 +2951,7 @@ legend {
     font-size: 22px;
   }
   .empty-state p {
-    font-size: 11px;
+    font-size: 14px;
   }
   .form-grid {
     grid-template-columns: 1fr;
@@ -2967,16 +2967,16 @@ legend {
     flex-wrap: wrap;
   }
   .form-actions p {
-    font-size: 9px;
+    font-size: 13px;
     max-width: 150px;
     flex: 1;
   }
   .form-actions .button {
-    font-size: 11px;
+    font-size: 14px;
     padding: 11px 14px;
   }
   .tag-options .tag {
-    font-size: 10px;
+    font-size: 13px;
     padding: 7px 9px;
   }
   .page-heading {
@@ -2989,14 +2989,14 @@ legend {
     font-size: 31px;
   }
   .page-heading p {
-    font-size: 12px;
+    font-size: 15px;
   }
   .template-option {
     padding: 14px;
     gap: 12px;
   }
   .template-option small {
-    font-size: 9px;
+    font-size: 13px;
   }
   .github-choice {
     padding: 15px;
@@ -3018,11 +3018,11 @@ legend {
     height: 60px;
   }
   .person-top .status-badge {
-    font-size: 9px;
+    font-size: 13px;
   }
   .person-headline,
   .person-bio {
-    font-size: 12px;
+    font-size: 15px;
   }
   .people-filters .checkbox-label {
     margin-top: 8px;
@@ -3043,7 +3043,7 @@ legend {
   }
   .profile-meta {
     gap: 12px;
-    font-size: 9px;
+    font-size: 13px;
   }
   .project-hero {
     display: block;
@@ -3059,11 +3059,11 @@ legend {
     gap: 10px;
   }
   .project-header-meta .status-badge {
-    font-size: 7px;
+    font-size: 11px;
   }
   .project-owner {
     gap: 12px;
-    font-size: 9px;
+    font-size: 13px;
   }
   .project-tabs {
     margin-top: 17px;
@@ -3071,7 +3071,7 @@ legend {
     gap: 22px;
   }
   .project-tabs button {
-    font-size: 11px;
+    font-size: 14px;
   }
   .project-overview {
     grid-template-columns: 1fr;
@@ -3094,13 +3094,13 @@ legend {
     padding: 24px;
   }
   .join-card p {
-    font-size: 12px;
+    font-size: 15px;
   }
   .join-card form label {
-    font-size: 12px;
+    font-size: 15px;
   }
   .join-card textarea {
-    font-size: 12px;
+    font-size: 15px;
   }
   .team-note {
     display: none;
@@ -3114,10 +3114,10 @@ legend {
     flex-wrap: wrap;
   }
   .member-person strong {
-    font-size: 12px;
+    font-size: 15px;
   }
   .member-person div > span {
-    font-size: 9px;
+    font-size: 13px;
   }
   .member-controls {
     margin-left: 48px;
@@ -3130,7 +3130,7 @@ legend {
     flex-wrap: wrap;
   }
   .request-actions .button {
-    font-size: 9px;
+    font-size: 13px;
   }
   .danger-zone {
     display: block;
@@ -3146,7 +3146,7 @@ legend {
     font-size: 25px;
   }
   .dialog .form-actions .button {
-    font-size: 10px;
+    font-size: 13px;
   }
   .board-header {
     display: block;
@@ -3165,13 +3165,13 @@ legend {
     padding: 17px;
   }
   .task-title {
-    font-size: 12px;
+    font-size: 15px;
   }
   .auth-card h1 {
     font-size: 32px;
   }
   .auth-card .eyebrow {
-    font-size: 8px;
+    font-size: 12px;
   }
   .auth-layout {
     padding: 10px 5px;
@@ -3180,10 +3180,10 @@ legend {
     gap: 9px;
   }
   .outgoing-list strong {
-    font-size: 11px;
+    font-size: 14px;
   }
   .outgoing-list .request-status {
-    font-size: 9px;
+    font-size: 13px;
   }
   .footer {
     margin: 0 16px;
@@ -3194,10 +3194,10 @@ legend {
     display: block;
   }
   .section-heading .eyebrow {
-    font-size: 7px;
+    font-size: 11px;
   }
   .project-description {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 @media (max-width: 400px) {
