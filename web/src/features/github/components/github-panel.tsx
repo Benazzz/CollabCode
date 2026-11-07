@@ -104,7 +104,9 @@ export function GithubPanel({
           )}
           <p className="field-hint">
             {providerToken
-              ? 'Creates a public repository in your account. Existing repositories are never deleted.'
+              ? url
+                ? 'Adds any starter Issues that are still missing. Existing Issues are not duplicated.'
+                : 'Creates a public repository in your account. Existing repositories are never deleted.'
               : 'Use the GitHub account linked to your CollabCode account. Reconnect after a page reload to grant access for this session.'}
           </p>
         </>

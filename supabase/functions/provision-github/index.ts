@@ -166,7 +166,14 @@ Deno.serve(async (request: Request) => {
         .eq('lease_id', leaseId)
     }
     // The immutable ID keeps retries stable even if the project title changes.
-    const name = 'collabcode-' + project.id
+        const slug = project.title
+      .toLowerCase()
+      .normalize('NFKD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+      .slice(0, 60)
+    const name = (slug || 'collabcode') + '-' + project.id.slice(0, 8)
     const fullName = project.github_repo_name || githubUser.login + '/' + name
     if (!/^[a-zA-Z0-9_.-]+\/[a-zA-Z0-9_.-]+$/.test(fullName))
       throw new HttpError(400, 'Invalid repository reference.')
