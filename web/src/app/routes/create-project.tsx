@@ -6,7 +6,7 @@ import { ProjectForm } from '@/features/projects/components/project-form'
 import { saveProject } from '@/features/projects/api/projects'
 import { useTechnologies } from '@/lib/catalog'
 import { useTemplates, provisionRepository } from '@/features/github/api/github'
-import { signInWithGithub } from '@/features/auth/api/auth'
+import { connectGithub } from '@/features/auth/api/auth'
 import { useAuth } from '@/hooks/use-auth'
 import { ErrorNotice, Loading, PageHeading } from '@/components/ui/feedback'
 import type { Database } from '@/types/database'
@@ -26,7 +26,7 @@ export default function CreateProjectRoute() {
       if (createRepository && templateId && !providerToken) {
         // GitHub access is needed first. The project page creates the repository on return.
         await queryClient.invalidateQueries({ queryKey: ['projects'] })
-        await signInWithGithub(`/projects/${id}?setup=github`)
+        await connectGithub(`/projects/${id}?setup=github`)
         return
       }
       let githubError = ''

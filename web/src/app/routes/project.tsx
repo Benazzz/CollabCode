@@ -19,7 +19,7 @@ import { TeamPanel } from '@/features/teams/components/team-panel'
 import { JoinProject, RequestsPanel } from '@/features/teams/components/requests-panel'
 import { TaskBoard } from '@/features/tasks/components/task-board'
 import { GithubPanel } from '@/features/github/components/github-panel'
-import { signInWithGithub } from '@/features/auth/api/auth'
+import { connectGithub } from '@/features/auth/api/auth'
 import { useTechnologies } from '@/lib/catalog'
 import { supabase } from '@/lib/supabase'
 import { useAuth } from '@/hooks/use-auth'
@@ -227,7 +227,7 @@ export default function ProjectRoute() {
               project={data}
               owner={owner}
               providerToken={providerToken}
-              onConnect={() => signInWithGithub(`/projects/${id}`)}
+              onConnect={() => connectGithub(`/projects/${id}`)}
               onChange={refresh}
               autoCreate={params.get('setup') === 'github'}
             />
